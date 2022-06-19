@@ -266,8 +266,13 @@ body{
 .wrap-info-me{
     transform: translateX(-20%);
 }
+.wrap-info-me .row > div{
+    width: 50%;
+}
 .wrap-info-me p{
     font-size: 20px;
+    color: #ffc71b !important;
+
 }
 
 @media screen and (max-width: 420px) {
